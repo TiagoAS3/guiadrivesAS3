@@ -1,0 +1,371 @@
+body {
+    padding: 60px 0 70px 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h2 {
+    background-color: #2c3e50;
+    color: white;
+    margin: 20px 0 0 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+h3 {
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+hr {
+    margin: 30px 0;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.75), rgba(100, 100, 100, 0));
+}
+
+.suporte {
+    text-align: center;
+}
+
+input[type=text] {
+    font-size: 14px;
+    color: rgba(100, 100, 100, 1);
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    border: 3px solid rgba(100, 100, 100, 1);
+    text-transform: uppercase;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+select {
+    font-size: 14px;
+    color: #2c3e50;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    border: 3px solid rgba(100, 100, 100, 1);
+    text-transform: uppercase;
+}
+
+select:disabled {
+    color: #2c3e50;
+    background-color: #d7d7d7;
+    border: 3px solid rgba(180, 180, 180, 1);
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    outline: none;
+    color: white;
+}
+
+.inputIcon {
+    float: right;
+    margin-right: 16px;
+    margin-top: -33px;
+    position: relative;
+    z-index: 2;
+    color: rgba(100, 100, 100, 1);
+}
+
+.menu p {
+    padding-top: 5px;
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+
+.row.navigBar {
+    margin: 0;
+}
+
+.navbar-fixed-bottom>.col-xs-3 {
+    padding: 0;
+}
+
+.menu {
+    height: 70px;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    float: left;
+    border: none;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.file {
+    cursor: pointer;
+    color: #2c3e50;
+    width: 100%;
+    margin-bottom: 0px;
+    background: transparent;
+    float: left;
+    border: 3px solid #2c3e50;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.tag {
+    color: #2c3e50;
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.database {
+    margin: 0;
+}
+
+.navig {
+    height: 50px;
+    float: right;
+    vertical-align: middle;
+}
+
+.navig i {
+    text-align: center;
+    color: white;
+}
+
+.fa-stack-1x {
+    font-size: 15px;
+}
+
+.fa-stack.fa-lg {
+    margin: 8px 0 5px 5px;
+}
+
+.fa-angle-down {
+    float: right;
+}
+
+.fa-angle-up {
+    float: right;
+}
+
+.navbar-default {
+    background: #2c3e50;
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.fa-3x.index {
+    padding-bottom: 10px;
+}
+
+.whatsapp-btn {
+    margin-top: 10px;
+}
+
+#logo {
+    max-width: 140px;
+}
+
+#desc-area {
+    color: #2c3e50;
+    background: #c7c7c7;
+    padding: 20px;
+    display: none;
+}
+
+#causa-area {
+    color: #2c3e50;
+    background: #c7c7c7;
+    padding: 20px;
+    display: none;
+}
+
+#sol-area {
+    color: #2c3e50;
+    background: #c7c7c7;
+    padding: 20px;
+    display: none;
+}
+
+#p_modelo {
+    margin-top: 12px;
+}
+
+#info {
+    margin-top: 45px;
+}
+
+#conexao {
+    display: none;
+}
+
+.button.btnActive {
+    background-color: #286090;
+}
+
+.fabricante {
+    display: none;
+}
+
+.button {
+    background-color: #2c3e50;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.container>.navbar-header {
+    margin-right: 0;
+}
+
+.navbar-fixed-bottom {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-fixed-bottom>.navbar-header {
+    /*margin: 0;*/
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.btn-group {
+    width: 100%;
+    margin-left: 0px;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+    background: #2c3e50;
+}
+
+.btn-group>.btn.btn-default {
+    height: 60px;
+    border: none;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: #2c3e50;
+}
+
+.pMenu {
+    padding-top: 2px;
+    margin-bottom: 0;
+    font-size: 10px;
+}
+
+.iMenu {
+    font-size: 1.6em;
+}
+
+.pull-right {
+    margin-right: 15px;
+}
+
+.navbar-btn {
+    width: 40px;
+}
+
+#manualDownload {
+    color: #2c3e50;
+    background: #c7c7c7;
+    display: none;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 90px;
+    right: 15px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+.feedCards {
+    margin-bottom: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.loadingFeed {
+    margin-top: 190px;
+    display: block;
+}
+
+.thumbnail {
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 8px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background-color: #c7c7c7;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    padding: 0 20px;
+}
+
+li:nth-child(2n) {
+    background-color: #d7d7d7;
+}
+
+li a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.margin-footerbar {
+    margin: 15px 0px 0px 0px;
+}
